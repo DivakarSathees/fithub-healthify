@@ -35,14 +35,20 @@ const MenuItems = ({ setIsMenuOpened,logoutUser,user,a=1}) => {
   
   return (
       <>
-          <a href="/Fit" onClick={handleMenuItemClick}>Exercises</a>
-          <a href="/FitCalculation" onClick={handleMenuItemClick}>FitCalculator</a>
-          <a href="/Recipes" onClick={handleMenuItemClick}>Recipes</a>
-          <a href="/Calories" onClick={handleMenuItemClick}>Calories</a>
-          <a href="/Meal-planning" onClick={handleMenuItemClick}>Meal planning</a>
+          <Link to="/Fit" onClick={handleMenuItemClick}>Exercises</Link>
+          {/* <a href="/Fit" onClick={handleMenuItemClick}>Exercises</a> */}
+          <Link to="/FitCalculation" onClick={handleMenuItemClick}>FitCalculator</Link>
+          {/* <a href="/FitCalculation" onClick={handleMenuItemClick}>FitCalculator</a> */}
+          <Link to="/Recipes" onClick={handleMenuItemClick}>Recipes</Link>
+          {/* <a href="/Recipes" onClick={handleMenuItemClick}>Recipes</a> */}
+          <Link to="/Calories" onClick={handleMenuItemClick}>Calories</Link>
+          {/* <a href="/Calories" onClick={handleMenuItemClick}>Calories</a> */}
+          <Link to="/Meal-planning" onClick={handleMenuItemClick}>Meal planning</Link>
+          {/* <a href="/Meal-planning" onClick={handleMenuItemClick}>Meal planning</a> */}
           {/* <Link to={`/?to=Contact`} onClick={handleContactClick}>Contact</Link> */}
           {/* <a href={`/Workout/${user.name}/${user._id}`} onClick={increase}>Workout</a> */}
-          <a href='/workuser'>Workout</a>
+          <Link to="/workuser">Workout</Link>
+          {/* <a href='/workuser'>Workout</a> */}
 
           <Link to='#' onClick={()=>logoutUser(navigate)}>Logout</Link>
 
