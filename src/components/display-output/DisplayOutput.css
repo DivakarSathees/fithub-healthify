@@ -1,0 +1,26 @@
+.result-block {
+  padding: 20px;
+  background: #89A894;
+  color: #FBFBFB;
+  margin-bottom: 30px;
+}
+
+.mod-tdee {
+  margin-bottom: 0px;
+}
+
+.result-block.mod-bmr {
+  background: #52414C;
+}
+
+.result-block.mod-max {
+  background: #7698B3;
+}
+
+.result-block.mod-macros {
+  background: #ECA72C;
+}
+
+.result-block.mod-hr {
+  background: #fa6262;
+}
